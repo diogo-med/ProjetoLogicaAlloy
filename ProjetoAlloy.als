@@ -56,9 +56,7 @@ fact RegrasRepositorio{
     }
 
 
-run{
-    #Organizacao = 2
-} for 7
+run{} for 7
 
 assert acessaRepositorioDaMesmaOrganizacao{
     all u : Usuario, r : Repositorio | r in u.acessos implies mesmaOrg[u, r]
