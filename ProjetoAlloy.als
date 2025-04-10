@@ -1,3 +1,12 @@
+/*
+Participantes:
+
+- Diogo Medeiros – 123110779  
+- Isaac Vieira Batista de Andrade – 123210378  
+- José Daniel Brandão Nobrega – 123210303
+*/
+
+
 module projetoLogica
 
 sig Organizacao {}
